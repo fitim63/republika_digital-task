@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.App {
+    min-height: 100vh;
+    background-color: #c5c4c4;
+}
+
+.main {
+    padding: 10px;
+}
+.container {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.column {
+    width: 30%;
+}
+
+.column h3 {
+    background-color: #78909C;
+    height: 70px;
+    margin: 20px 0 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.droppableColumn {
+    background-color: #FAFAFA;
+    min-height: 200px;
+    padding: 20px 0 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.todoItem {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 0 10px;
+    background-color: #FAFAFA;
+    margin: 0 10px 20px 10px;
+    height: 70px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.todoItem p {
+    font-size: 16px;
+}
+.addButton {
+    display: flex;
+    margin-left: 20px;
+}
