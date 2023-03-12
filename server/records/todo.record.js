@@ -2,11 +2,6 @@ const {pool} = require('../utils/db');
 
 class TodoRecord {
     constructor(obj) {
-        if (!obj.name || obj.name.length < 3 || obj.name.length > 50) {
-            throw new Error(
-                'Todo must have at least 3 characters and less than 50 characters'
-            );
-        }
         this.id = obj.id;
         this.name = obj.name;
         this.status = obj.status;

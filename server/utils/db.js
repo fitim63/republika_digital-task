@@ -8,15 +8,6 @@ const pool = createPool({
     namedPlaceholders: true,
 });
 
-pool.getConnection(function (err) {
-    if(err){
-        console.log("error occurred while connecting");
-    }
-    else{
-        console.log("connection created with Mysql successfully");
-    }
-});
-
 module.exports = {
     pool,
 };
